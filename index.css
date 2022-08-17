@@ -1,0 +1,40 @@
+.Gods-Word {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    border: solid black;
+    padding: 30px;
+    height: 150px;
+    width: 300px;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    box-shadow:
+        10px -10px 0 -3px aquamarine,
+        10px -10px,
+        20px -20px 0 -3px aquamarine,
+        20px -20px;
+    transition:box-shadow 2s , top 2s , left 2s;
+    
+}
+
+.Gods-Word:hover {
+    top: -20px;
+    left: 20px;
+    box-shadow: 
+        0 0 0 -3px aquamarine,
+        0 0,
+        0 0 0 -3px aquamarine,
+        0 0;
+}
+
+a .comment {
+    display: none;
+  }
+  
+  a:hover .replies {
+    display: none;
+  }
+  
+  a:hover .comment {
+    display: inline;
+}
